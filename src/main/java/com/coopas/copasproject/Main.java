@@ -13,10 +13,12 @@ public class Main extends JavaPlugin {
     public void onEnable() {
 
         Bukkit.getConsoleSender().sendMessage(" ");
-        Bukkit.getConsoleSender().sendMessage("§a>>> Plugin [ Copas Project ] Iniciado com sucesso!");
+        Bukkit.getConsoleSender().sendMessage("§a>>> [ Copas Project ] Iniciando!");
         Bukkit.getConsoleSender().sendMessage(" ");
-
         comandos();
+        Bukkit.getConsoleSender().sendMessage("§a>>> [ Comandos ] Iniciados com sucesso!");
+        Bukkit.getConsoleSender().sendMessage("§a>>> [ Copas Project ] Iniciado com sucesso!");
+        Bukkit.getConsoleSender().sendMessage(" ");
     }
 
     public void comandos() {
@@ -30,7 +32,7 @@ public class Main extends JavaPlugin {
     public void onDisable() {
 
         Bukkit.getConsoleSender().sendMessage(" ");
-        Bukkit.getConsoleSender().sendMessage("§c>>> Plugin [ Copas Project ] Finalizado com sucesso!");
+        Bukkit.getConsoleSender().sendMessage("§c>>> [ Copas Project ] Finalizado com sucesso!");
         Bukkit.getConsoleSender().sendMessage(" ");
 
     }
