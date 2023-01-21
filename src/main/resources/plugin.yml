@@ -1,0 +1,5 @@
+name: CopasProject
+version: '${project.version}'
+main: com.coopas.copasproject.Main
+authors: [ Coopas ]
+description: Todo meu conhecimento de spigot em um plugin.
