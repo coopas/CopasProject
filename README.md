@@ -5,3 +5,6 @@ Desenvolvido inteiramente por Coopas
 
 - Comandos com atividades
 - Comandos com Argumentos
+
+- Sistema de Permissão
+- Arquivos de Configuração
