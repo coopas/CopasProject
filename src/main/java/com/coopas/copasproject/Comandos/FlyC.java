@@ -1,5 +1,6 @@
 package com.coopas.copasproject.Comandos;
 
+import com.coopas.copasproject.Main;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -13,19 +14,19 @@ public class FlyC implements CommandExecutor {
         Player p = (Player)sender;
 
         if (cmd.getName().equalsIgnoreCase("Fly")) {
-            if (p.hasPermission("cp.fly")){
+            if (p.hasPermission(Main.permissoes.getConfig().getString("Permissoes.Fly"))){
                 if (p.getAllowFlight() == true) {
                 p.setAllowFlight(false);
-                p.sendMessage(" §c - O seu modo de voo foi desativado!");
+                p.sendMessage(Main.mensagens.getConfig().getString("Fly.Desativado"));
                 } else {
                         if (p.getAllowFlight() == false) {
                         p.setAllowFlight(true);
-                        p.sendMessage(" §a - O seu modo de voo foi ativado!");
+                        p.sendMessage(Main.mensagens.getConfig().getString("Fly.Ativado"));
                     }
                 }
 
             } else {
-                p.sendMessage(" - §cVocê não possui permissão suficiente para usar o comando!");
+                p.sendMessage(Main.mensagens.getConfig().getString("Erros.SemPerm"));
             }
         }
 

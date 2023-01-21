@@ -1,0 +1,10 @@
+Fly:
+  Ativado: ' §a - O seu modo de voo foi ativado!'
+  Desativado:  §c - O seu modo de voo foi desativado!
+Gm:
+  0: '     §a O seu modo de jogo foi definido para Sobrevivência!'
+  1: '     §a O seu modo de jogo foi definido para Criativo!'
+  2: '     §a O seu modo de jogo foi definido para Aventura!'
+  3: '     §a O seu modo de jogo foi definido para Espectador!'
+Erros:
+  SemPerm: ' - §cVocê não possui permissão suficiente para usar o comando!'
