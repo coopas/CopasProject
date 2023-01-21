@@ -28,25 +28,25 @@ public class GmC implements CommandExecutor {
                 } else {
                     if (args[0].equalsIgnoreCase("0")) {
 
-                        p.sendMessage("     §a O seu modo de jogo foi definido para Sobrevivência");
+                        p.sendMessage("     §a O seu modo de jogo foi definido para Sobrevivência!");
                         p.setGameMode(GameMode.SURVIVAL);
 
                     }
                     if (args[0].equalsIgnoreCase("1")) {
 
-                        p.sendMessage("     §a O seu modo de jogo foi definido para Criativo");
+                        p.sendMessage("     §a O seu modo de jogo foi definido para Criativo!");
                         p.setGameMode(GameMode.CREATIVE);
 
                     }
                     if (args[0].equalsIgnoreCase("2")) {
 
-                        p.sendMessage("     §a O seu modo de jogo foi definido para Aventura");
+                        p.sendMessage("     §a O seu modo de jogo foi definido para Aventura!");
                         p.setGameMode(GameMode.ADVENTURE);
 
                     }
                     if (args[0].equalsIgnoreCase("3")) {
 
-                        p.sendMessage("     §a O seu modo de jogo foi definido para Espectador");
+                        p.sendMessage("     §a O seu modo de jogo foi definido para Espectador!");
                         p.setGameMode(GameMode.SPECTATOR);
 
                     }
