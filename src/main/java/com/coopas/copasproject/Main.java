@@ -1,6 +1,7 @@
 package com.coopas.copasproject;
 
 import com.coopas.copasproject.Comandos.AjudaC;
+import com.coopas.copasproject.Comandos.FlyC;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -18,8 +19,11 @@ public class Main extends JavaPlugin {
     }
 
     public void comandos() {
+
         getCommand("ajuda").setExecutor(new AjudaC());
+        getCommand("fly").setExecutor(new FlyC());
     }
+
 
     public void onDisable() {
 
