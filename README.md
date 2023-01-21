@@ -5,7 +5,7 @@ Desenvolvido inteiramente por Coopas
 
 ---
 
-- Comandos com atividades
+- Comandos com Atividades
 - Comandos com Argumentos
 
 - Sistema de Permissão
