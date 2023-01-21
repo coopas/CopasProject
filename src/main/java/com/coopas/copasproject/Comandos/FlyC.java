@@ -25,7 +25,7 @@ public class FlyC implements CommandExecutor {
                 }
 
             } else {
-                p.sendMessage(" §cVocê não possui permissão suficiente para usar o comando!");
+                p.sendMessage(" - §cVocê não possui permissão suficiente para usar o comando!");
             }
         }
 

@@ -6,3 +6,4 @@ description: Todo meu conhecimento de spigot em um plugin.
 commands:
   ajuda:
   fly:
+  gm:

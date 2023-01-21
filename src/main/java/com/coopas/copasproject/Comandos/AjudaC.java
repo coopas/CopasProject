@@ -15,6 +15,7 @@ public class AjudaC implements CommandExecutor {
             sender.sendMessage("    §l§aCopasProject | Comandos do Plugin.");
             sender.sendMessage("");
             sender.sendMessage("    §a- Fly §r| Ativar ou desativar o modo de voo.");
+            sender.sendMessage("    §a- Gm §r| Alterar modo de jogo.");
             sender.sendMessage(" ");
 
         }

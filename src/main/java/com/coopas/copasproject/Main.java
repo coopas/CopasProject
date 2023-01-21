@@ -2,6 +2,7 @@ package com.coopas.copasproject;
 
 import com.coopas.copasproject.Comandos.AjudaC;
 import com.coopas.copasproject.Comandos.FlyC;
+import com.coopas.copasproject.Comandos.GmC;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -22,6 +23,7 @@ public class Main extends JavaPlugin {
 
         getCommand("ajuda").setExecutor(new AjudaC());
         getCommand("fly").setExecutor(new FlyC());
+        getCommand("gm").setExecutor(new GmC());
     }
 
 
