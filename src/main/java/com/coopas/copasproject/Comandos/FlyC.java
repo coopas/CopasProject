@@ -17,11 +17,15 @@ public class FlyC implements CommandExecutor {
             if (p.hasPermission(Main.permissoes.getConfig().getString("Permissoes.Fly"))){
                 if (p.getAllowFlight() == true) {
                 p.setAllowFlight(false);
-                p.sendMessage(Main.mensagens.getConfig().getString("Fly.Desativado"));
+                p.sendMessage(Main.mensagens.getConfig().getString("Fly.Desativado")
+                        .replace("&", "§")
+                        .replace("{player}", p.getName()));
                 } else {
                         if (p.getAllowFlight() == false) {
                         p.setAllowFlight(true);
-                        p.sendMessage(Main.mensagens.getConfig().getString("Fly.Ativado"));
+                        p.sendMessage(Main.mensagens.getConfig().getString("Fly.Ativado")
+                                .replace("&", "§")
+                                .replace("{player}", p.getName()));
                     }
                 }
 

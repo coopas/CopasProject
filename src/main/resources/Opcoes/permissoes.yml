@@ -1,3 +1,4 @@
 Permissoes:
   Fly: 'cp.fly'
   Gm: 'cp.gm'
+  Manutencao: 'cp.manutencao'

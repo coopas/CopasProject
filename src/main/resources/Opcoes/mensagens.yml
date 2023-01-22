@@ -1,10 +1,17 @@
 Fly:
-  Ativado: ' §a - O seu modo de voo foi ativado!'
-  Desativado:  §c - O seu modo de voo foi desativado!
+  Ativado: ' &a - O seu modo de voo foi ativado!'
+  Desativado:  ' &c - O seu modo de voo foi desativado!'
 Gm:
-  0: '     §a O seu modo de jogo foi definido para Sobrevivência!'
-  1: '     §a O seu modo de jogo foi definido para Criativo!'
-  2: '     §a O seu modo de jogo foi definido para Aventura!'
-  3: '     §a O seu modo de jogo foi definido para Espectador!'
+  0: '     &a O seu modo de jogo foi definido para Sobrevivência!'
+  1: '     &a O seu modo de jogo foi definido para Criativo!'
+  2: '     &a O seu modo de jogo foi definido para Aventura!'
+  3: '     &a O seu modo de jogo foi definido para Espectador!'
 Erros:
-  SemPerm: ' - §cVocê não possui permissão suficiente para usar o comando!'
+  SemPerm: ' - &cVocê não possui permissão suficiente para usar o comando!'
+Avisos:
+  Entrada: ' &a+ &rO jogador &a{player} &rentrou no servidor!'
+  Saida: ' &c- &rO jogador &c{player} &rsaiu no servidor!'
+Manutencao:
+  Ativado: '&aManutenção Ativada!'
+  Desativado: '&cManutenção Desativada!'
+  Erro1: '     &cUse /manutencao [ ON / OFF ]'
