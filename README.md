@@ -7,8 +7,9 @@ Desenvolvido inteiramente por Coopas
 
 - Comandos com Atividades
 - Comandos com Argumentos
-
 - Sistema de Permissão
 - Arquivos de Configuração
+- Aviso de Entrada e Saída
+- Sistema de Manutenção 
 
 ---
