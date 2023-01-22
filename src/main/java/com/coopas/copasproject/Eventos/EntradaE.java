@@ -18,9 +18,6 @@ public class EntradaE implements Listener {
                 .replace("{player}", p.getName()));
 
     }
-
-
-
     @EventHandler
     public void aoSair(PlayerQuitEvent e) {
 

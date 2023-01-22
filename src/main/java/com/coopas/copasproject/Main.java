@@ -6,6 +6,7 @@ import com.coopas.copasproject.Comandos.GmC;
 import com.coopas.copasproject.Comandos.MotdC;
 import com.coopas.copasproject.Eventos.EntradaE;
 import com.coopas.copasproject.Eventos.MotdE;
+import com.coopas.copasproject.Eventos.PuloE;
 import com.coopas.copasproject.Utils.Config;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -55,6 +56,7 @@ public class Main extends JavaPlugin {
 
         Bukkit.getPluginManager().registerEvents(new EntradaE(), this);
         Bukkit.getPluginManager().registerEvents(new MotdE(), this);
+        Bukkit.getPluginManager().registerEvents(new PuloE(), this);
 
     }
 

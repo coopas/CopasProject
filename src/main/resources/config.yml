@@ -1,3 +1,6 @@
 MOTD:
   Manutencao: '&cServidor em Manutenção!'
   Aberto: '&aServidor Aberto!'
+Boost:
+  Quantia: 3
+  Bloco: 'DIAMOND_BLOCK' #https://www.minecraftinfo.com/idlist.htm
