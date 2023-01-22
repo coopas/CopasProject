@@ -11,5 +11,6 @@ Desenvolvido inteiramente por Coopas
 - Arquivos de Configuração
 - Aviso de Entrada e Saída
 - Sistema de Manutenção 
+- Sistema de Boost ao pisar no bloco
 
 ---
