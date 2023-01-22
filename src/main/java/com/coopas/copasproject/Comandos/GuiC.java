@@ -28,8 +28,6 @@ public class GuiC implements CommandExecutor {
                         .build());
 
         p.openInventory(gui);
-
-
     }
 
 
