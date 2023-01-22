@@ -1,9 +1,6 @@
 package com.coopas.copasproject;
 
-import com.coopas.copasproject.Comandos.AjudaC;
-import com.coopas.copasproject.Comandos.FlyC;
-import com.coopas.copasproject.Comandos.GmC;
-import com.coopas.copasproject.Comandos.MotdC;
+import com.coopas.copasproject.Comandos.*;
 import com.coopas.copasproject.Eventos.EntradaE;
 import com.coopas.copasproject.Eventos.MotdE;
 import com.coopas.copasproject.Eventos.PuloE;
@@ -50,6 +47,7 @@ public class Main extends JavaPlugin {
         getCommand("fly").setExecutor(new FlyC());
         getCommand("gm").setExecutor(new GmC());
         getCommand("manutencao").setExecutor(new MotdC());
+        getCommand("gui").setExecutor(new GuiC());
     }
 
     public void eventos() {
