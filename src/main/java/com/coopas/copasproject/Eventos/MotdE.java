@@ -15,11 +15,14 @@ public class MotdE implements Listener {
 
             e.setMotd(Main.config.getConfig().getString("MOTD.Manutencao")
                     .replace("&", "§"));
+            e.setMaxPlayers(e.getNumPlayers() + 1);
 
         } else {
 
             e.setMotd(Main.config.getConfig().getString("MOTD.Aberto")
                     .replace("&", "§"));
+
+            e.setMaxPlayers(Main.config.getConfig().getInt("MOTD.MaxPlayers"));
 
         }
 

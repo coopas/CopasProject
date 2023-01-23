@@ -1,6 +1,7 @@
 MOTD:
-  Manutencao: '&cServidor em Manutenção!'
-  Aberto: '&aServidor Aberto!'
+  Manutencao: '&cServidor em Manutenção :(\nVolte mais Tarde!'
+  Aberto: '&aServidor Aberto :)\n Entre Já!' #Use \n Para pular linhas!
+  MaxPlayers: 2023
 
 Boost:
   Quantia: 3
