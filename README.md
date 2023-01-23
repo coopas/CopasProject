@@ -9,7 +9,7 @@ Desenvolvido inteiramente por Coopas
 - Comandos com Argumentos
 - Sistema de Permissão
 - Arquivos de Configuração
-- Aviso de Entrada e Saída
-- Sistema de Manutenção 
-- Sistema de Boost ao pisar em um bloco especifico
+- Listeners
+
+Etc...
 ---
