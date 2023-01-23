@@ -18,6 +18,7 @@ public class GmC implements CommandExecutor {
             if (p.hasPermission(Main.permissoes.getConfig().getString("Permissoes.Gm"))) {
 
                 if (args.length == 0) {
+                    p.sendMessage(" ");
                     p.sendMessage("     §cVocê precisa especificar o modo de jogo!");
                     p.sendMessage("     §cUse /gm [ 0 , 1 , 2 , 3 ]");
                     p.sendMessage("     ");
@@ -25,6 +26,8 @@ public class GmC implements CommandExecutor {
                     p.sendMessage("     §c1 | Criativo");
                     p.sendMessage("     §c2 | Aventura");
                     p.sendMessage("     §c3 | Espectador");
+                    p.sendMessage(" ");
+
 
                 } else {
                     if (args[0].equalsIgnoreCase("0")) {

@@ -3,12 +3,18 @@ MOTD:
   Aberto: '&aServidor Aberto!'
 Boost:
   Quantia: 3
-  Bloco: 'DIAMOND_BLOCK' #https://www.minecraftinfo.com/idlist.htm
+  Bloco: 'DIAMOND_BLOCK'              #https://www.minecraftinfo.com/idlist.htm
 Gui:
-  Tamanho: 3 #Quantia de Linhas Maximo 6
+  Tamanho: 3            #Quantia de Linhas Maximo 6
   Nome: '&8- Menu!'
 
   Itens:
-    Diamante:
-      Slot: 13 #https://i.imgur.com/hkzyTZO.png
-      Item: 'DIAMOND' #https://www.minecraftinfo.com/idlist.htm
+    Item1:
+      Slot: 13            #https://i.imgur.com/hkzyTZO.png
+      Item: 'STAINED_GLASS'             #https://www.minecraftinfo.com/idlist.htm
+      Data: 1                 #Data = O numero que vem apos o ID do item. por exemplo: Vidro Amarelo 95:4 | O 4 Seria a DATA!
+      Quantidade: 32
+      Nome: '&bDIAMANTE!'
+      Encantamento:
+        Nivel: 3
+        Efeito: 'DURABILITY'
