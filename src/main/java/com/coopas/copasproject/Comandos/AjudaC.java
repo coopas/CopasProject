@@ -8,7 +8,6 @@ public class AjudaC implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-
         if(cmd.getName().equalsIgnoreCase("Ajuda")) {
 
             sender.sendMessage(" ");
@@ -21,7 +20,6 @@ public class AjudaC implements CommandExecutor {
             sender.sendMessage(" ");
 
         }
-
         return false;
     }
 }

@@ -2,6 +2,7 @@ package com.coopas.copasproject;
 
 import com.coopas.copasproject.Comandos.*;
 import com.coopas.copasproject.Eventos.EntradaE;
+import com.coopas.copasproject.Eventos.GuiE;
 import com.coopas.copasproject.Eventos.MotdE;
 import com.coopas.copasproject.Eventos.PuloE;
 import com.coopas.copasproject.Utils.Config;
@@ -48,6 +49,7 @@ public class Main extends JavaPlugin {
         getCommand("gm").setExecutor(new GmC());
         getCommand("manutencao").setExecutor(new MotdC());
         getCommand("gui").setExecutor(new GuiC());
+        getCommand("t").setExecutor(new TpC());
     }
 
     public void eventos() {
@@ -55,6 +57,7 @@ public class Main extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new EntradaE(), this);
         Bukkit.getPluginManager().registerEvents(new MotdE(), this);
         Bukkit.getPluginManager().registerEvents(new PuloE(), this);
+        Bukkit.getPluginManager().registerEvents(new GuiE(), this);
 
     }
 
