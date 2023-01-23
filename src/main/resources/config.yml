@@ -1,9 +1,11 @@
 MOTD:
   Manutencao: '&cServidor em Manutenção!'
   Aberto: '&aServidor Aberto!'
+
 Boost:
   Quantia: 3
   Bloco: 'DIAMOND_BLOCK'              #https://www.minecraftinfo.com/idlist.htm
+
 Gui:
   Tamanho: 3            #Quantia de Linhas Maximo 6
   Nome: '&8- Menu!'

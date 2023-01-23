@@ -18,15 +18,12 @@ public class GmC implements CommandExecutor {
             if (p.hasPermission(Main.permissoes.getConfig().getString("Permissoes.Gm"))) {
 
                 if (args.length == 0) {
-                    p.sendMessage(" ");
-                    p.sendMessage("     §cVocê precisa especificar o modo de jogo!");
-                    p.sendMessage("     §cUse /gm [ 0 , 1 , 2 , 3 ]");
-                    p.sendMessage("     ");
-                    p.sendMessage("     §c0 | Sobrevivência");
-                    p.sendMessage("     §c1 | Criativo");
-                    p.sendMessage("     §c2 | Aventura");
-                    p.sendMessage("     §c3 | Espectador");
-                    p.sendMessage(" ");
+
+                    for (String erro1 : Main.mensagens.getConfig().getStringList("Gm.Erro1")) {
+                        erro1 = erro1.replaceAll("&", "§");
+
+                        sender.sendMessage(erro1);
+                    }
 
 
                 } else {
@@ -63,13 +60,11 @@ public class GmC implements CommandExecutor {
 
                                 } else {
                                     if (args.length == 1) {
-                                        p.sendMessage("     §cVocê precisa especificar o modo de jogo!");
-                                        p.sendMessage("     §cUse /gm [ 0 , 1 , 2 , 3 ]");
-                                        p.sendMessage("     ");
-                                        p.sendMessage("     §c0 | Sobrevivência");
-                                        p.sendMessage("     §c1 | Criativo");
-                                        p.sendMessage("     §c2 | Aventura");
-                                        p.sendMessage("     §c3 | Espectador");
+                                        for (String erro1 : Main.mensagens.getConfig().getStringList("Gm.Erro1")) {
+                                            erro1 = erro1.replaceAll("&", "§");
+
+                                            sender.sendMessage(erro1);
+                                        }
                                     }
                                 }
                             }

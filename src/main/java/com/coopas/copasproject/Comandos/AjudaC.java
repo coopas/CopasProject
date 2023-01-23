@@ -16,6 +16,8 @@ public class AjudaC implements CommandExecutor {
             sender.sendMessage("");
             sender.sendMessage("    §a- Fly §r| Ativar ou desativar o modo de voo.");
             sender.sendMessage("    §a- Gm §r| Alterar modo de jogo.");
+            sender.sendMessage("    §a- Gui §r| Abre um menu.");
+            sender.sendMessage("    §a- Manutenção §r| Ativar ou desativar a manutenção.");
             sender.sendMessage(" ");
 
         }
