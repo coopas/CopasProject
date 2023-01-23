@@ -4,19 +4,32 @@ MOTD:
 
 Boost:
   Quantia: 3
-  Bloco: 'DIAMOND_BLOCK'              #https://www.minecraftinfo.com/idlist.htm
+  Bloco: 'DIAMOND_BLOCK'                #https://www.minecraftinfo.com/idlist.htm
 
 Gui:
-  Tamanho: 3            #Quantia de Linhas Maximo 6
+  Tamanho: 3                            #Quantia de Linhas Maximo 6
   Nome: '&8- Menu!'
 
   Itens:
     Item1:
-      Slot: 13            #https://i.imgur.com/hkzyTZO.png
-      Item: 'STAINED_GLASS'             #https://www.minecraftinfo.com/idlist.htm
-      Data: 1                 #Data = O numero que vem apos o ID do item. por exemplo: Vidro Amarelo 95:4 | O 4 Seria a DATA!
+      Slot: 13                          #https://i.imgur.com/hkzyTZO.png
+      Material: 'STAINED_GLASS'         #https://www.minecraftinfo.com/idlist.htm
+      Data: 1                           #Data = O numero que vem apos o ID do item. por exemplo: Vidro Amarelo 95:4 | O 4 Seria a DATA!
       Quantidade: 32
       Nome: '&bDIAMANTE!'
       Encantamento:
         Nivel: 3
         Efeito: 'DURABILITY'
+      Lore:
+        - '&cIsso não é um diamante'
+    Item2:
+      Slot: 12
+      Material: 'STONE'
+      Data: 0
+      Quantidade: 1
+      Nome: '&2PEDRA!'
+      Encantamento:
+        Nivel: 2
+        Efeito: 'DURABILITY'
+      Lore:
+        - '&cIsso é uma pedra'
